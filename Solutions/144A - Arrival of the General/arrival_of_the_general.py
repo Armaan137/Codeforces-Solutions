@@ -15,6 +15,7 @@ def main():
         if h <= minh:
             minh = h
             mini = i
+
     if mini < maxi:
         result = maxi + (n - 1 - mini) - 1
     else:
