@@ -1,7 +1,7 @@
 # This problem can be found here: https://codeforces.com/problemset/problem/118/A.
 
 def main():
-    s = list(input())
+    s = input()
     vowels = {"A", "O", "Y", "E", "U", "I"}
 
     res = ""
