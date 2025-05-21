@@ -13,7 +13,7 @@ void solve() {
     cin >> s;
 
     // if k = 0, we need to check if it's smaller than it's reverse.
-    // if k >= 1, we need to check if there is differing characters; we can always make a swap.
+    // if k >= 1, we need to check if there are differing characters; we can always make a swap.
     string rev = string(s.rbegin(), s.rend());
     if (s < rev || k > 0 && min_element(s.begin(), s.end()) != max_element(s.begin(), s.end())) {
         cout << "YES\n";
